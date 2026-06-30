@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.main {
+  padding: 20px;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #e63946;
+  color: #fff;
+  cursor: pointer;
+}
+
+.lyrics {
+  margin-top: 20px;
+}
+
+.fretboard-wrapper {
+  margin-top: 30px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  margin-bottom: 10px;
+}
+
+.logo-text {
+  font-weight: bold;
+}
+
+.chord-name {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.fretboard {
+  display: inline-block;
+  padding: 20px;
+  background: #222;
+  border-radius: 12px;
+}
+
+.string-row {
+  display: flex;
+}
+
+.fret-cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #e63946;
+  box-shadow: 0 0 8px #e63946;
+}
+
+.controls {
+  margin-top: 15px;
+}
